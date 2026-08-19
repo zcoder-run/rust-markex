@@ -29,7 +29,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-[`TagOptions::with_capture_text`] controls whether text outside matched elements is emitted as `Part::Text`. Text capture is disabled by default.
+[`tag::TagOptions::with_capture_text`] controls whether text outside matched elements is emitted as `Part::Text`. Text capture is disabled by default.
 
 ## Custom fences
 
